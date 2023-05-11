@@ -3,7 +3,7 @@ import { Container, Col, Form, Button, Card, Row } from "react-bootstrap";
 
 import { useMutation, useQuery } from "@apollo/client";
 import { useParams } from "react-router-dom";
-import SAVE_BOOK from "../utils/mutations";
+import { SAVE_BOOK } from "../utils/mutations";
 import GET_ME from "../utils/queries";
 
 import Auth from "../utils/auth";

@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useMutation } from "@apollo/client";
 import { useQuery } from "@apollo/client";
 import { useParams } from "react-router-dom";
-import GET_ME from "../utils/queries";
-import REMOVE_BOOK from "../utils/mutations";
+import { GET_ME } from "../utils/queries";
+import { REMOVE_BOOK } from "../utils/mutations";
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
 
 import { getMe, deleteBook } from "../utils/API";
