@@ -31,7 +31,7 @@ const resolvers = {
       }
 
       const token = signToken(profile);
-      return { token, profile };
+      return { token, user };
     },
 
     saveBook: async (parent, { userId, book }) => {
